@@ -339,7 +339,7 @@ def info(update: Update, context: CallbackContext):
     elif user.id in WOLVES:
         text += "\n\nThe level for this user is Villain"
         disaster_level_present = True
-    elif user.id == 5938660179:
+    elif user.id == 926151330:
         text += "\n\nᴄᴏ-ᴏᴡᴇʀɴ ᴏғ ᴀ ʙᴏᴛ."
         disaster_level_present = True
 
