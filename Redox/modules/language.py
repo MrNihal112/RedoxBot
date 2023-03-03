@@ -82,7 +82,7 @@ def set_lang(update: Update, _) -> None:
         [
             InlineKeyboardButton(
                 text="ʜᴇʟᴘ ᴜs ɪɴ ᴛʀᴀɴsʟᴀᴛɪᴏɴs",
-                url="https://github.com/MrNihalXd/RedoxRobot",  # plz. Don't edit and change
+                url="https://t.me/Mr_Nihal9",  # plz. Don't edit and change
             )
         ]
     )
