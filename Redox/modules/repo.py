@@ -13,7 +13,7 @@ from telethon import __version__ as s
 
 from Redox import Nihal as pbot
 
-NIHALX = "https://te.legra.ph/file/abfc49a1cc4b5629dc8cd.jpg"
+NIHALX = "https://telegra.ph/file/3fd4046e41764142db1a4.jpg"
 
 
 @pbot.on_message(filters.command("repo"))
@@ -33,10 +33,10 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "•ᴍᴜꜱɪᴄ•", url="https://github.com/MrNihalXd/NihalXMusic"
+                        "•ᴍᴜꜱɪᴄ•", url="https://t.me/Mr_Nihal9"
                     ),
                     InlineKeyboardButton(
-                        "•ʀᴏʙᴏᴠ1•", url="https://github.com/MrNihalXd/RedoxRobot"
+                        "•ʀᴏʙᴏᴠ1•", url="https://t.me/Mr_Nihal9"
                     ),
                 ]
             ]
