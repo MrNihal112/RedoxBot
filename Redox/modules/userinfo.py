@@ -517,8 +517,8 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n[⍙ ɢɪᴛʜᴜʙ](https://github.com/MrNihalXd/RedoxRobot) | ⍚\n\n "
-            + "╘══「 by [ᴍʀ ɴɪʜᴀʟ](github.com/MrNihalXd) 」\n",
+            + "\n\n[⍙ ɢɪᴛʜᴜʙ](https://t.me/Mr_Nihal9) | ⍚\n\n "
+            + "╘══「 by [ᴍʀ ɴɪʜᴀʟ](https://t.me/Mr_Nihal9) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(kb),
             disable_web_page_preview=True,
@@ -531,9 +531,9 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + "\n\n⍙ [ɢɪᴛʜᴜʙ](https://github.com/MrNihalXd/RedoxRobot) | ⍚ \n\n"
+                    + "\n\n⍙ [ɢɪᴛʜᴜʙ](https://t.me/Mr_Nihal9) | ⍚ \n\n"
                 )
-                + "╘══「 by [ᴅʏɴᴀᴍɪᴄ](github.com/MrNihalXd) 」\n"
+                + "╘══「 by [ᴅʏɴᴀᴍɪᴄ](https://t.me/Mr_Nihal9) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(kb),
