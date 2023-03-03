@@ -77,7 +77,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🥀 ᴀʙᴏᴜᴛ 🥀", callback_data="ABG_"),
-        InlineKeyboardButton(text="💕 ᴅᴇᴠᴇʟᴏᴘᴇʀ 💕", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", CallbackQuery.edit_message_media(media=InputMediaVideo("https://telegra.ph/file/9b0455dae14d5639f936d.mp4", caption="etc")),
     ],
 ]
 
